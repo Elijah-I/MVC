@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "target": "ES5",
+    "outDir": "../build/",
+    "removeComments": true,
+    "sourceMap": true,
+    "watch": true,
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "lib": ["es2021", "DOM"],
+    "paths": {
+      "types/*": ["types/*"]
+    }
+  },
+  "files": ["src/index.ts"],
+  "exclude": ["node_modules", "webpack"],
+  "include": ["./src/"]
+}
